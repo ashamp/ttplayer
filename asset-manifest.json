@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ttplayer/static/css/main.df28bfa8.css",
-    "main.js": "/ttplayer/static/js/main.6260ce19.js",
+    "main.js": "/ttplayer/static/js/main.f20c36d8.js",
     "index.html": "/ttplayer/index.html",
     "main.df28bfa8.css.map": "/ttplayer/static/css/main.df28bfa8.css.map",
-    "main.6260ce19.js.map": "/ttplayer/static/js/main.6260ce19.js.map"
+    "main.f20c36d8.js.map": "/ttplayer/static/js/main.f20c36d8.js.map"
   },
   "entrypoints": [
     "static/css/main.df28bfa8.css",
-    "static/js/main.6260ce19.js"
+    "static/js/main.f20c36d8.js"
   ]
 }
