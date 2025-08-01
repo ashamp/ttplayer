@@ -9,6 +9,16 @@ class StereoProcessor extends AudioWorkletProcessor {
     const input = inputs[0];
     const output = outputs[0];
     
+    // 调试：检查输入数据
+    if (input && input.length > 0) {
+      console.log('AudioWorklet收到输入:', {
+        inputLength: input.length,
+        channel0Length: input[0] ? input[0].length : 0,
+        channel1Length: input[1] ? input[1].length : 0,
+        hasData: input[0] && input[0].length > 0
+      });
+    }
+    
     if (input.length >= 2) {
       // 立体声输入：分离左右声道
       const leftInput = input[0];
